@@ -3,12 +3,12 @@ Version:        1.0
 Release:        1%{?dist}
 Summary:        Tool to test data integrity of GlusterFS
 
-License:        AGPL
+License:        AGPLv3
 URL:            https://github.com/nigelbabu/arequal
 Source0:        https://github.com/nigelbabu/arequal/archive/%{version}.tar.gz
 
 %description
-
+This is a tool to test the data integrity of GlusterFS. It's used in the tests.
 
 %prep
 %autosetup
@@ -34,5 +34,5 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com>
+* Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com> - 1.0-1
 - Initial RPM release.
