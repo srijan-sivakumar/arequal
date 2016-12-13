@@ -1,4 +1,4 @@
-AC_INIT([arequal],[0.1],[support@gluster.com])
+AC_INIT([arequal],[0.1],[gluster-devel@gluster.com])
 AM_INIT_AUTOMAKE
 AC_CONFIG_FILES([Makefile])
 

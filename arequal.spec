@@ -1,9 +1,9 @@
 Name:           arequal
 Version:        1.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Tool to test data integrity of GlusterFS
 
-License:        AGPLv3
+License:        GPLv3+
 URL:            https://github.com/nigelbabu/arequal
 Source0:        https://github.com/nigelbabu/arequal/archive/%{version}.tar.gz
 
@@ -34,5 +34,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com> - 1.0-2
+- Fix the license and email in configure
+
 * Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com> - 1.0-1
 - Initial RPM release.
