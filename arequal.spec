@@ -5,6 +5,7 @@ Summary:        Tool to test data integrity of GlusterFS
 
 License:        AGPL
 URL:            https://github.com/nigelbabu/arequal
+Source0:        https://github.com/nigelbabu/arequal/archive/%{version}.tar.gz
 
 %description
 
