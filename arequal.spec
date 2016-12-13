@@ -15,7 +15,7 @@ Source0:        https://github.com/nigelbabu/arequal/archive/%{version}.tar.gz
 
 
 %build
-./autogen
+./autogen.sh
 %configure
 %make_build
 
@@ -28,6 +28,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %license LICENSE
 %doc README
+/usr/bin/arequal-checksum
+%exclude /usr/bin/arequal-run.sh
 
 
 
