@@ -1,6 +1,6 @@
 Name:           arequal
-Version:        1.0
-Release:        2%{?dist}
+Version:        1.1
+Release:        3%{?dist}
 Summary:        Tool to test data integrity of GlusterFS
 
 License:        GPLv3+
@@ -34,8 +34,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com> - 1.0-2
-- Fix the license and email in configure
+* Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com> - 1.1-1
+- Fix the license to GPLv3 and fix email address
 
 * Tue Dec 13 2016 Nigel Babu <nigelb@redhat.com> - 1.0-1
 - Initial RPM release.
