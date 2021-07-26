@@ -1,13 +1,20 @@
 arequal - Tool to test data security of GlusterFS
 =======
 
+```console
+Usage: arequal-checksum [-?] [-i IGNORED] [-p PATH] [--ignore=IGNORED]
+            [--path=PATH] [--help] [--usage]
+```
+
+
 0. Install arequal
 ------------------
-  sh# ./autogen.sh
-  sh# ./configure
-  sh# make
-  sh# make install
-
+```console
+  # ./autogen.sh
+  # ./configure
+  # make
+  # make install
+```
   Perform the above installation steps on both clients and servers
 
 
@@ -30,8 +37,9 @@ use /mnt/glusterfs as the example mount point.
 
 3. Start the test
 -----------------
-  sh# arequal-run.sh /usr/ /mnt/gluster/usr
-
+```console
+  # arequal-run.sh /usr/ /mnt/gluster/usr
+```
 
 4. Verify the output
 --------------------
@@ -59,7 +67,9 @@ should still match.
 ----------------------
   After step 3, run the following command on both the servers
 
-  sh# arequal-checksum /export/directory
+```console
+  # arequal-checksum /export/directory
+```
 
   The output values should match
 
