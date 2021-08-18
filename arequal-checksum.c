@@ -155,7 +155,7 @@ static struct argp argp = {
         arequal_parse_opts,
         "",
         "arequal - Tool which calculates the checksum of all the entries"
-        "present in a given directory"
+        " present in a given directory"
 };
 
 /* All this runs in single thread, hence using 'global' variables */
